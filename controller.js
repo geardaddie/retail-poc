@@ -1,6 +1,8 @@
 restify = require('restify');
 assert = require('assert');
 
+require('./model');
+
 const api = '/v1/products/pdp/TCIN/13860428/1375?redsky-api-key=DEV24df89be43a6cca455DEV';
 
 exports.getProduct = (request, response, next) => {
