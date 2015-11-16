@@ -1,7 +1,9 @@
+require('./model');
+
 const restify = require('restify');
 const controller = require('./controller');
 const mongoose = require('mongoose');
-require('./model');
+
 
 const server = restify.createServer();
 
