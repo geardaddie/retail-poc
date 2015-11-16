@@ -7,8 +7,8 @@ const mongoose = require('mongoose');
 
 const server = restify.createServer();
 
-server.get('/products/:name', controller.getProduct);
-server.put('/products/:name', controller.updateProduct);
+server.get('/products/:id', controller.getProduct);
+server.put('/products/:id', controller.updateProduct);
 
 server.listen(8080, () => {
   console.log('%s listening at %s', server.name, server.url);
@@ -24,20 +24,21 @@ db.once('open', () => {
 
 // insert test data
 const Product = mongoose.model('Product');
-Product.find({}, (products) => {
-  console.log(products);
-
+Product.find({}, (err, products) => {
   if (!products || products.length === 0) {
-    const product = new Product({ productId: 100, name: 'FuzzBuzz',
-                                  price: { amount: 10, currency: 'USD'}
+    const sampleIds = ['15117729', '16483589', '16696652', '16752456', '15643793', '13860428'];
+    sampleIds.forEach((sampleId) => {
+      const price = Math.floor((Math.random() * 10001)) / 100;
+      const product = new Product({ id: sampleId,
+                                  current_price: { value: price, currency_code: 'USD'}
                                 });
-
-    product.save((err, savedProduct) => {
-      if (err) {
-        console.log('Didnt Save: ' + err);
-      } else {
-        console.log('Created new product with id: ' + savedProduct._id);
-      }
+      product.save((error, savedProduct) => {
+        if (error) {
+          console.log("Didn't save!");
+        } else {
+          console.log('Saved product: ' + savedProduct.id);
+        }
+      });
     });
   }
 });

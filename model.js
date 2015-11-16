@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 const ProductSchema = new mongoose.Schema({
-  productId: Number,
+  id: String,
   name: String,
-  currentPrice: {
-    amount: Number,
-    currency: String
+  current_price: {
+    value: Number,
+    currency_code: String
   }
 });
 
