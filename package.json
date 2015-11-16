@@ -1,0 +1,11 @@
+{
+  "name": "MyRetail",
+  "version": "0.0.1",
+  "main":"app.js",
+  "private": true,
+  "dependencies": {
+    "debug": "~2.2.0",
+    "restify":"~4.0.3",
+    "mongoose": "~4.2.5"
+  }
+}
