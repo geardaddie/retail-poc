@@ -1,8 +1,13 @@
+'use strict';
+
 const restify = require('restify');
 const assert = require('assert');
 const mongoose = require('mongoose');
+const Promise = require('bluebird');
+
 const Product = mongoose.model('Product');
 
+Promise.promisifyAll(restify.JsonClient.prototype);
 
 exports.getProduct = (request, response, next) => {
   const client = restify.createJsonClient({
@@ -10,6 +15,24 @@ exports.getProduct = (request, response, next) => {
   });
   const id = request.params.id;
   const api = '/v1/products/pdp/TCIN/' + id + '/1375?redsky-api-key=DEV24df89be43a6cca455DEV';
+
+  // let productDescription;
+  // client.getAsync(api).then((req) => {
+  //   console.log(req);
+  //   productDescription = prodDesc[0];
+  //   return Product.findOne({id: id}, '-_id');
+  // })
+  // .then((product) => {
+  //   product.name = productDescription.title;
+  //   response.send(product);
+  //   next();
+  // })
+  // .catch((err) => {
+  //   response.send('I got an error: ' + err);
+  //   console.log('I got an error: ' + err);
+  //   next();
+  //   throw err;
+  // });
 
   client.get(api, (err, req, res, productDescriptions) => {
     assert.ifError(err); // connection error
@@ -19,12 +42,14 @@ exports.getProduct = (request, response, next) => {
       response.send(product);
       next();
     });
+  });
+};
 
-    // TODO: Figure out how to incorporate promises
-    // TODO: Consider cashing names in mongoDB w/some sort of "age" config
-    // TODO: Consider versioning in the API
-    // TODO: Check Content Type and Accept
-    // TODO: Externalize Settings (JSON file + ENV overrides)
+// TODO: Have this merge product names in as well (promises!!)
+exports.listProducts = (request, response, next) => {
+  Product.find({}, (error, products) => {
+    response.send(products);
+    next();
   });
 };
 
