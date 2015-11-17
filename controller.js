@@ -1,5 +1,3 @@
-'use strict';
-
 const restify = require('restify');
 const assert = require('assert');
 const mongoose = require('mongoose');

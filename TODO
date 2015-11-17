@@ -9,5 +9,5 @@ TODO: Consider naming this 'pricedProducts' and remember its goal is to only ser
 
 TODO: consider renaming app.js -> server.js || myretail.js
      - like this: app.set(port, process.env.PORT || 3000) (replace 3000 with config-env.json setting)
-
+TODO: Error Handling!
 

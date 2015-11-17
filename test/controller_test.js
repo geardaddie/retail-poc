@@ -4,7 +4,7 @@ const server = require('../server');
 const assert = require('assert');
 
 before(() => {
-  // server.startServer();
+   server.startServer();
 });
 
 describe('Priced Product Server', () => {
