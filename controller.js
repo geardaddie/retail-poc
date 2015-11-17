@@ -51,6 +51,15 @@ exports.listProducts = (request, response, next) => {
   });
 };
 
-exports.updateProduct = (req, res, next) => {
+exports.updateProductPrice = (req, response, next) => {
   // todo save product
+  Product.findOne({id: req.params.id}).then((product) => {
+    if (!product) throw new Error("not found!");
+    product.current_price = req.body;
+    return product.save();
+  }).then(() => {
+    console.log("Returning");
+    response.send(200);
+    return next();
+  });
 };

@@ -15,11 +15,9 @@ function createTestData() {
         const product = new Product({ id: sampleId,
                                     current_price: { value: price, currency_code: 'USD'}
                                   });
-        product.save((error, savedProduct) => {
+        product.save((error) => {
           if (error) {
             console.log("Didn't save!");
-          } else {
-            console.log('Saved product: ' + savedProduct.id);
           }
         });
       });
@@ -31,18 +29,19 @@ function connectToDB() {
   mongoose.connect('mongodb://localhost/myRetail', {server: {auto_reconnect: true}});
 
   const db = mongoose.connection;
-  db.on('error', console.error.bind(console, 'connection error:'));
+  db.on('error', (error) => { throw new Error(error); });
   db.once('open', () => {
-    console.log('Connected to Mongo!');
     createTestData();
   });
 }
 
 exports.startServer = () => {
   const server = restify.createServer();
+  server.use(restify.bodyParser());
+  server.use(restify.queryParser());
 
   server.get('/products/:id', controller.getProduct);
-  server.put('/products/:id', controller.updateProduct);
+  server.put('/products/:id/price', controller.updateProductPrice);
   server.get('/products', controller.listProducts);
 
   server.listen(8080, () => {
