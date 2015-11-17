@@ -1,0 +1,1659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"save",
+				"savedProduct"
+			],
+			[
+				"prod",
+				"products (?)   [E]"
+			],
+			[
+				"act",
+				"actsByAge"
+			],
+			[
+				"ac",
+				"actsByTerm"
+			],
+			[
+				"stro",
+				"stroke-width"
+			],
+			[
+				"fi",
+				"fill-opacity"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ter",
+				"term_count"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"Bla",
+				"BlazeLayout     (obj) [C]"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"def",
+				"defaultValue"
+			],
+			[
+				"CAN",
+				"CANDIDATE"
+			],
+			[
+				"col",
+				"columnName"
+			],
+			[
+				"ne",
+				"newDataType"
+			],
+			[
+				"juri",
+				"JURISDICTION"
+			],
+			[
+				"PAPER_FORM",
+				"paper_form_id"
+			],
+			[
+				"con",
+				"compilePath   (fn)   [C]"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"PAPER",
+				"PAPER_EXAMINEE_HISTORY"
+			],
+			[
+				"table",
+				"tableName"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"set",
+				"setDefault (fn) [C]"
+			],
+			[
+				"ins",
+				"instructions"
+			],
+			[
+				"fin",
+				"findOne (fn) [C]"
+			],
+			[
+				"selec",
+				"selectHouse"
+			],
+			[
+				"he",
+				"head	Tag"
+			],
+			[
+				"ca",
+				"candidateIds"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"CRED",
+				"CREDENTIAL_DATE"
+			],
+			[
+				"test",
+				"test_center_id"
+			],
+			[
+				"IN",
+				"INTO"
+			],
+			[
+				"C",
+				"CANDIDATE_JURISDICTION_CREDENTIAL"
+			],
+			[
+				"EX",
+				"EXTERNAL_CANDIDATE_ID"
+			],
+			[
+				"CANDI",
+				"CANDIDATE_ID"
+			],
+			[
+				"PAPE",
+				"PAPER_SCAN_HISTORY"
+			],
+			[
+				"todo",
+				"todo_id"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ver",
+				"verifyEmail"
+			],
+			[
+				"ema",
+				"emailTemplates"
+			],
+			[
+				"en",
+				"encodeURIComponent"
+			],
+			[
+				"selecte",
+				"selectedHouse"
+			],
+			[
+				"pl",
+				"plantInstructions"
+			],
+			[
+				"slecte",
+				"selectedHouse"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"task",
+				"taskId"
+			],
+			[
+				"hi",
+				"hideCompleted"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ge",
+				"geocoder"
+			],
+			[
+				"V",
+				"vue_code"
+			],
+			[
+				"can",
+				"candidatesToVerify"
+			],
+			[
+				"candidates",
+				"candidatesToVerify"
+			],
+			[
+				"j",
+				"jurisdictionFile"
+			],
+			[
+				"get",
+				"getCell"
+			],
+			[
+				"getS",
+				"getStringCellValue"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"groo",
+				"groovy-all-2"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"js",
+				"jshint"
+			],
+			[
+				"b",
+				"browserName"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"GE",
+				"GED_Prep"
+			],
+			[
+				"Juris",
+				"JurisdictionQuestion"
+			],
+			[
+				"Jur",
+				"jurisdiction"
+			],
+			[
+				"ta",
+				"tableName"
+			],
+			[
+				"chan",
+				"changeSet"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"li",
+				"list-item-template"
+			],
+			[
+				"stat",
+				"static-template"
+			],
+			[
+				"Cont",
+				"ContactManager"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/johnshields/Projects/tgt-node/TODO",
+			"settings":
+			{
+				"buffer_size": 664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/johnshields/Projects/tgt-node/package.json",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller_test.js",
+			"settings":
+			{
+				"buffer_size": 1326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/johnshields/Projects/tgt-node/app.js",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/johnshields/Projects/tgt-node/server.js",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/johnshields/Projects/tgt-node/controller.js",
+			"settings":
+			{
+				"buffer_size": 1616,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 131.0,
+		"last_filter": "sql",
+		"selected_items":
+		[
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"sq	l",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"sq",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"forsq",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"syja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"g",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"git",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"tidy",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"plug",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"i",
+				"Indent XML"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"s",
+				"Set Syntax: SQL"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"plack",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"blame",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"slq",
+				"Set Syntax: SQL"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"togta",
+				"View: Toggle Tabs"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"to",
+				"View: Toggle Tabs"
+			],
+			[
+				"tog",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"sy ma",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"synta ma",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"ind",
+				"Indent XML"
+			],
+			[
+				"syns",
+				"Set Syntax: SQL"
+			],
+			[
+				"gro",
+				"Set Syntax: Groovy"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"inxm",
+				"Indent XML"
+			],
+			[
+				"inde",
+				"Auto indent"
+			],
+			[
+				"for",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"sys",
+				"Set Syntax: SQL"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"groo",
+				"Set Syntax: Groovy"
+			],
+			[
+				"xm",
+				"Set Syntax: XML"
+			],
+			[
+				"gr",
+				"Set Syntax: Groovy"
+			],
+			[
+				"sy",
+				"Set Syntax: YAML"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"tohe",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"togghe",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"beut",
+				"HTMLBeautify"
+			],
+			[
+				"synangu",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"angular",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"jsh",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 411.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/johnshields/Projects/tgt-node",
+		"/Users/johnshields/Projects/tgt-node/test"
+	],
+	"file_history":
+	[
+		"/Users/johnshields/Projects/tgt-node/controller.js",
+		"/Users/johnshields/Projects/tgt-node/db.js",
+		"/Users/johnshields/Projects/tgt-node/.eslintrc",
+		"/Users/johnshields/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/johnshields/Projects/tgt-node/app.js",
+		"/Users/johnshields/Projects/Javascript/meteor/bwca/.l",
+		"/Users/johnshields/myGEDTS/support/end-of-day.sql",
+		"/Users/johnshields/myGEDTS/support/passers-before-11-06-2015",
+		"/Users/johnshields/myGEDTS/support/passers.txt",
+		"/Users/johnshields/myGEDTS/spreadsheets/dev/ExamSeries_2002.xlsx",
+		"/Users/johnshields/myGEDTS/spreadsheets/dev/ExamSeries.xlsx",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.1511.0.xml",
+		"/Users/johnshields/Projects/tgt/kafka_2.10-0.8.2.2/config/server-1.properties",
+		"/Users/johnshields/Projects/tgt/kafka_2.10-0.8.2.2/config/server-2.properties",
+		"/Users/johnshields/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/johnshields/myGEDTS/support/Passers-Metric.sql",
+		"/Users/johnshields/myGEDTS/support/Prod SQL Numbers in Perforce.txt",
+		"/Users/johnshields/Hackathon/legislator-visualizations/server/server.js",
+		"/Users/johnshields/Projects/Javascript/meteor/bwca/upload.html",
+		"/Users/johnshields/Hackathon/legislator-visualizations/public/example.csv",
+		"/Users/johnshields/Hackathon/leg",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00206188/001_UpdateJuris.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/001_AddScanErrorMessage.sql",
+		"/Users/johnshields/myGEDTS/support/update_jurisdictions.sql",
+		"/Users/johnshields/myGEDTS/support/Candidates With GED Ready but no GED scheduled.sql",
+		"/Users/johnshields/myGEDTS/support/001_BriteVerify.sql",
+		"/Users/johnshields/Projects/Javascript/meteor/myGED/.eslintrc",
+		"/Users/johnshields/Projects/Javascript/meteor/myGED/client/routes.js",
+		"/Users/johnshields/Projects/Javascript/meteor/myGED/client/createAccount.js",
+		"/Users/johnshields/Projects/Javascript/meteor/myGED/.jshintrc",
+		"/Users/johnshields/Projects/Javascript/meteor/myGEDTS/client/lib/custom.semantic.json",
+		"/Users/johnshields/Projects/Javascript/meteor/myGEDTS/myGEDTS.html",
+		"/Users/johnshields/myGEDTS/support/Problem Candidate Essay Scoring.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/004_RestoreVueCandidateID.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/003_RemovePre2002Exams.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/002_OverrideException.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/004_RestoreVueClientID.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205972/001_FixPartialScan.sql",
+		"/Users/johnshields/myGEDTS/support/Production fix.sql",
+		"/Users/johnshields/myGEDTS/support/Accommodation Numbers.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205935/001_FixPartialScan.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/001_FixPartialScan.sql",
+		"/Users/johnshields/myGEDTS/main/app/src/test/resources/com/gedts/mygedts/pbt/GEDTS-Data-20151006.txt",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00205874/001_RemoveBadHistoricalData.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00204928/001_UpdateCandidateIDTimes.sql",
+		"/Users/johnshields/myGEDTS/servers/jboss-eap-6.1/standalone/configuration/standalone.xml",
+		"/Users/johnshields/.zshrc",
+		"/Users/johnshields/ged.zsh",
+		"/private/tmp/johnshields(p4v)/stormwind.local_Perforce.PearsonVUE.com_1888/software/source/db/DBS_Release/DBS_PROD00205752/001_Correct_Candidate_Credential_Date#2.sql",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.0-r3.xml",
+		"/Users/johnshields/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.1510.0.xml",
+		"/Users/johnshields/Projects/Javascript/meteor/party-planner/client/party-planner.html",
+		"/Users/johnshields/myGEDTS/support/tx-matching-report.sql",
+		"/Users/johnshields/myGEDTS/main/app/src/test/resources/com/gedts/mygedts/pbt/GEDTS-Data-20150915.txt",
+		"/Users/johnshields/myGEDTS/support/LevistienMatching.groovy",
+		"/Users/johnshields/myGEDTS/support/For Texas",
+		"/Users/johnshields/Documents/Why Meteor",
+		"/Users/johnshields/myGEDTS/servers/jboss-eap-6.1/idea/configuration/standalone.xml",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.1509.0.xml",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.1506.0.xml",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-master.xml",
+		"/Users/johnshields/myGEDTS/main/db/migrations/db.changelog-1.1507.0.xml",
+		"/Users/johnshields/Projects/Javascript/meteor/party-planner/.meteor/local/build/programs/server/node_modules/chalk/readme.md",
+		"/Users/johnshields/myGEDTS/support/MissingPromotedTestsWithMerges.sql",
+		"/Users/johnshields/myGEDTS/main/itest/itest.iml",
+		"/Users/johnshields/Downloads/Query_to_find_pth_records_not_promoted.sql",
+		"/Users/johnshields/Projects/Javascript/meteor/bwca/entrypoints.cfm",
+		"/Users/johnshields/Projects/Javascript/meteor/bwca/member-data-points.cfm",
+		"/Users/johnshields/Projects/Javascript/meteor/bwca/portages.cfm",
+		"/Users/johnshields/Projects/Javascript/meteor/house-sitter2/campsites.cfm",
+		"/Users/johnshields/myGEDTS/support/Missing Tests for promoted candidates for TX.sql",
+		"/Users/johnshields/Downloads/Kentucky/ShortTestHistoryUpload.csv",
+		"/Users/johnshields/Downloads/Kentucky/ShortExamineeHistoryUpload.csv",
+		"/Users/johnshields/myGEDTS/support/MassPromotionSample.js",
+		"/Users/johnshields/myGEDTS/support/Promoted TX candidate research",
+		"/Users/johnshields/myGEDTS/support/GD-1322-ReOpen_Approved_Authorizations.sql",
+		"/Users/johnshields/myGEDTS/support/untitled.sql",
+		"/Users/johnshields/myGEDTS/support/historical-nc.sql",
+		"/Users/johnshields/myGEDTS/support/support-merge-issue-ids.sql",
+		"/Users/johnshields/myGEDTS/support/ShortTestHistoryUpload.csv",
+		"/Users/johnshields/myGEDTS/support/ShortExamineeHistoryUpload.csv",
+		"/Users/johnshields/myGEDTS/support/SPIKE-Thoughts on how to import tests",
+		"/Users/johnshields/myGEDTS/support/Possible Matches Notes",
+		"/Users/johnshields/Downloads/possible-matches.sql",
+		"/Users/johnshields/myGEDTS/support/current-nc.sql",
+		"/Users/johnshields/myGEDTS/support/NC-report-query.sql",
+		"/Users/johnshields/myGEDTS/support/nearly-finished-historical.sql",
+		"/Users/johnshields/myGEDTS/main/content/src/main/resources/content/fr/terms_Conditions.html",
+		"/Users/johnshields/Projects/Javascript/meteor/simple-todos/simple-todos.css",
+		"/Users/johnshields/Projects/Javascript/meteor/simple-todos/simple-todos.html",
+		"/Users/johnshields/myGEDTS/support/possible-matches.sql",
+		"/Users/johnshields/myGEDTS/support/Missing Historical Queries.sql",
+		"/Users/johnshields/myGEDTS/support/OSS Historical Candidate Support (7:1:15)",
+		"/Users/johnshields/myGEDTS/support/FBOP Exception Query.sql",
+		"/Users/johnshields/myGEDTS/support/Working Notes for Missing OSS Data (part 2)",
+		"/Users/johnshields/myGEDTS/support/FBOPFormQuery.sql",
+		"/Users/johnshields/myGEDTS/support/Working Notes for Missing OSS Data",
+		"/Users/johnshields/Projects/Javascript/sails/brushfire/views/homepage.ejs",
+		"/Users/johnshields/Projects/Javascript/sails/brushfire/assets/index.html",
+		"/Users/johnshields/Projects/Javascript/sails/brushfire/assets/styles/custom.css",
+		"/Users/johnshields/Projects/Javascript/sails/brushfire/assets/videos/index.html",
+		"/Users/johnshields/Projects/Javascript/sails/brushfire/assets/videos/videos.html",
+		"/Users/johnshields/Desktop/AlreadyPromotedMissingTests.csv",
+		"/Users/johnshields/myGEDTS/support/T1-javascript-cheetsheet.js",
+		"/Users/johnshields/Projects/Javascript/sails/firstApp/views/homepage.ejs",
+		"/Users/johnshields/jvm.plugin.zsh",
+		"/Users/johnshields/Downloads/jvm.plugin.zsh",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00202419/002_delete_empty_historical_paper_examinees.sql",
+		"/Users/johnshields/myGEDTS/support/marketing-april-credentialers.sql",
+		"/Users/johnshields/myGEDTS/support/joining scenarios",
+		"/Users/johnshields/myGEDTS/support/merge-issue-plot-thickens.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00202581/001_origin_to_scan.sql",
+		"/Users/johnshields/myGEDTS/support/support-merge-issues.sql",
+		"/Users/johnshields/myGEDTS/support/marketing-philly-credentialers-1.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/001_origin_to_scan.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00202486/001_invalidate_paper_credential.sql",
+		"/Users/johnshields/myGEDTS/support/support-query-for-merge-issue.sql",
+		"/Users/johnshields/Desktop/001_mark_scanned_exam_cheating.sql",
+		"/Users/johnshields/Perforce/vshiero_stormwind_3309/software/source/db/DBS_Release/DBS_PROD00202433/001_UpdateScores.sql",
+		"/Users/johnshields/myGEDTS/support/GD-886 Supporting Queries.sql",
+		"/Users/johnshields/myGEDTS/main/itest/twist.gradle",
+		"/Users/johnshields/myGEDTS/main/itest/src/main/resources/mygedts_web.properties",
+		"/Users/johnshields/myGEDTS/main/itest/build/resources/main/mygedts_web.properties",
+		"/Users/johnshields/myGEDTS/main/out/production/itest/mygedts_app.properties",
+		"/Users/johnshields/myGEDTS/main/itest/build/resources/main/mygedts_app.properties",
+		"/Users/johnshields/myGEDTS/main/itest/src/main/resources/mygedts_app.properties",
+		"/Users/johnshields/myGEDTS/main/out/production/itest/mygedts_web.properties"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.xml,/Users/johnshields/Downloads/saturday/unziped",
+			"*.xml",
+			",",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"044FB101",
+			"201",
+			"\\n",
+			"20150708-3323-5363",
+			"\\n",
+			"vertx-groovy",
+			"\\n",
+			"CASE",
+			"getValues",
+			"DomParser",
+			"p>",
+			"h2",
+			"h3",
+			"actsByAge",
+			"node",
+			"red",
+			"y0",
+			"height",
+			"width",
+			"acts",
+			"/Users/xxxx/qSites",
+			"\"",
+			"\n    ",
+			"\"",
+			"555668989",
+			"DUPLICATE",
+			"JOE",
+			"150915012",
+			"STUDY_HELPFUL",
+			"EMAIL",
+			"DF_CANDIDATE_EMAIL",
+			">\n",
+			"Bar",
+			"ntext",
+			"port",
+			"place",
+			"place\n",
+			"”",
+			"“",
+			"#nc_exams_for_candidates",
+			"#nc_candidates_for_july",
+			",",
+			"C\\.",
+			"SQLServer",
+			"SQL Server",
+			"SQL Ser",
+			"col-xs-12",
+			"!^\"AL\"",
+			"!^\"AK\"",
+			"20%",
+			"block",
+			"page-header",
+			"page-footer",
+			"col-md-4",
+			"vertical-three-colors",
+			"false",
+			"\\t",
+			"418011-18115_SP",
+			"\n<",
+			"AFFILIATE_USER_PROGRAM_FK",
+			"ssn",
+			"gedts.",
+			"GED100000213571",
+			"gedts",
+			"APO",
+			"DPO",
+			"FPO",
+			"GED100000212114",
+			"GED100000212105",
+			"<StateCode>AE</StateCode>",
+			"<City>APO</City>",
+			"<City>APO </City>",
+			"<StateCode>AP</StateCode>",
+			"darla.washington@noplace.com",
+			"steve.idol@noplace.com",
+			"20140423-9840-1222",
+			"|",
+			"XXX",
+			"\\r\\n",
+			"Unable to create",
+			"null",
+			"Brett",
+			"saskatoon",
+			"max",
+			"saskatoon",
+			"20140422-9933-7403",
+			"|",
+			"<TestCenterCode>\\d+</TestCenterCode>\n",
+			"            <TestCenterCode>\\w+</TestCenterCode>\n",
+			"            <TestCenterCode>[\\w]+</TestCenterCode>\n",
+			"            <TestCenterCode>[\\D]+</TestCenterCode>\n",
+			"            <TestCenterCode>[\\d]+</TestCenterCode>\n",
+			"            <TestCenterCode>\\d+</TestCenterCode>\n",
+			"            <TestCenterCode>*[0..9]</TestCenterCode>\n",
+			"            <TestCenterCode>*[0..]</TestCenterCode>\n",
+			"            <TestCenterCode>*(0..9)</TestCenterCode>\n",
+			"            <TestCenterCode>(0..9)*</TestCenterCode>\n",
+			"            <TestCenterCode>?*</TestCenterCode>\n",
+			"/>\n",
+			"primary",
+			"MainCtrl",
+			"karma",
+			"[ant:twist.runner] ",
+			"viewFileList",
+			"dropin",
+			"dropColumn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"00010001",
+			"'201",
+			"',\\n",
+			"',",
+			"\\r\\n",
+			"h3>",
+			"h1",
+			"h2",
+			"'",
+			"567678900",
+			"JOHNS",
+			"TACO",
+			"151006001",
+			"\"",
+			"#nc_current_exams",
+			"#nc_current_candidates",
+			"\",\"",
+			"",
+			"col-md-6 col-xs-12",
+			"33%",
+			"col-sm-4",
+			"true",
+			",",
+			"",
+			",",
+			"\\n",
+			"\\r\\n",
+			"XXX",
+			"\\nUnable to create",
+			"\\n",
+			",",
+			",\n",
+			"<TestCenterCode>000000050900</TestCenterCode>\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/johnshields/Projects/tgt-node/TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/johnshields/Projects/tgt-node/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controller_test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/johnshields/Projects/tgt-node/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/johnshields/Projects/tgt-node/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1473,
+								1473
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 127.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/johnshields/Projects/tgt-node/controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1396,
+								1396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "myRetail.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"con",
+				"controller.js"
+			],
+			[
+				"a",
+				"app.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"simp",
+				"web-examples/src/main/groovy/io/vertx/example/web/rest/simple_rest.groovy"
+			],
+			[
+				"rest",
+				"web-examples/src/main/groovy/io/vertx/example/web/rest/simple_rest.groovy"
+			],
+			[
+				"server-2",
+				"server-2.properties"
+			],
+			[
+				"pack",
+				"packages.json"
+			],
+			[
+				"up",
+				"upload.html"
+			],
+			[
+				"ca",
+				"cato.html"
+			],
+			[
+				"cat",
+				"cato.html"
+			],
+			[
+				"age",
+				"public/age.json"
+			],
+			[
+				"serv",
+				"server/server.js"
+			],
+			[
+				".",
+				".eslintrc"
+			],
+			[
+				"rou",
+				"client/routes.js"
+			],
+			[
+				"create",
+				"client/createAccount.js"
+			],
+			[
+				"par",
+				"client/party-planner.js"
+			],
+			[
+				"",
+				".meteor/local/build/programs/server/node_modules/chalk/readme.md"
+			],
+			[
+				"part",
+				"client/party-planner.html"
+			],
+			[
+				"tem",
+				"client/templates.html"
+			],
+			[
+				"clienth",
+				"client/templates.html"
+			],
+			[
+				"clie",
+				"client/client.js"
+			],
+			[
+				"cli",
+				"client/client.js"
+			],
+			[
+				"fh",
+				"myFridge.html"
+			],
+			[
+				"sim",
+				"simple-todos.js"
+			],
+			[
+				"heljs",
+				"helloWorld.js"
+			],
+			[
+				"helhtm",
+				"helloWorld.html"
+			],
+			[
+				"siht",
+				"simple-todos.html"
+			],
+			[
+				"sims",
+				"simple-todos.css"
+			],
+			[
+				"vidinde",
+				"assets/videos/index.html"
+			],
+			[
+				"inde",
+				"assets/videos/index.html"
+			],
+			[
+				"vide",
+				"assets/videos/videos.html"
+			],
+			[
+				"home",
+				"views/homepage.ejs"
+			],
+			[
+				"ind",
+				"assets/index.html"
+			],
+			[
+				"hom",
+				"views/homepage.ejs"
+			],
+			[
+				"homep",
+				"views/homepage.ejs"
+			],
+			[
+				"oss",
+				"Import OSS Data.txt"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"data",
+				"server/models/database.js"
+			],
+			[
+				"index",
+				"server/routes/index.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"index.j",
+				"server/routes/index.js"
+			],
+			[
+				"pak",
+				"package.json"
+			],
+			[
+				"basic",
+				"client/accountSetup/basic.html"
+			],
+			[
+				"ba",
+				"client/accountSetup/basic.js"
+			],
+			[
+				"basi",
+				"client/accountSetup/basic.js"
+			],
+			[
+				"das",
+				"client/dashboard/dashboard.html"
+			],
+			[
+				"rout",
+				"client/routes.js"
+			],
+			[
+				"accomm",
+				"client/accountSetup/accommodations.html"
+			],
+			[
+				"acc",
+				"client/welcome/accountLogin.html"
+			],
+			[
+				"to",
+				"todo.md"
+			],
+			[
+				"fo",
+				"client/layout/footer.html"
+			],
+			[
+				"ab",
+				"client/accountSetup/accountBasic.html"
+			],
+			[
+				"la",
+				"client/layout/layout.html"
+			],
+			[
+				"w",
+				"client/welcome/welcome.html"
+			],
+			[
+				"wel",
+				"client/welcome/welcome.html"
+			],
+			[
+				"flip",
+				"client/lib/jquery.flip.js"
+			],
+			[
+				"welc",
+				"client/welcome.html"
+			],
+			[
+				"h",
+				"collections/houses.js"
+			],
+			[
+				"temp",
+				"client/templates.html"
+			],
+			[
+				"sijs",
+				"simple-todos.js"
+			],
+			[
+				"si",
+				"simple-todos.js"
+			],
+			[
+				"tocss",
+				"simple-todos.css"
+			],
+			[
+				"sithm",
+				"simple-todos.html"
+			],
+			[
+				"bootstra",
+				"public/bower_components/bootstrap/dist/css/bootstrap-theme.css"
+			],
+			[
+				"boots",
+				"app/bower_components/bootstrap/dist/css/bootstrap.css"
+			],
+			[
+				"mvspe",
+				"test/spec/views/main.view.spec.js"
+			],
+			[
+				"mains",
+				"test/spec/views/main.view.spec.js"
+			],
+			[
+				".jsh",
+				".jshintrc"
+			],
+			[
+				"mvspec",
+				"test/spec/views/main.view.spec.js"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"my",
+				"config/mygedts_app.properties"
+			],
+			[
+				"message.properties",
+				"core/src/main/resources/message.properties"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"i",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

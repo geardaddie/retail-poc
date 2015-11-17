@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/johnshields/Projects/tgt-node"
+		}
+	],
+  "ternjs": {
+    "exclude": ["node-modules/**"]
+  }
+}
