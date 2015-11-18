@@ -1,22 +1,12 @@
-TODO: Figure out how to incorporate promises
-TODO: Consider cashing names in mongoDB w/some sort of "age" config
-TODO: Consider versioning in the API
+X: Consider versioning in the API
 TODO: Check Content Type and Accept
-TODO: Externalize Settings (config.json file + ENV overrides: config-test.json, confg-prod.json, config-dev.json)
-TODO: TESTING!!
-TODO: Consider naming this 'pricedProducts' and remember its goal is to only serve up priced products
-      - Allows for the idea of a generic "getPricedProducts" API call for listing
-
-TODO: consider renaming app.js -> server.js || myretail.js
-     - like this: app.set(port, process.env.PORT || 3000) (replace 3000 with config-env.json setting)
-TODO: Error Handling!
 TODO: Consider adding Bunyan Logging to replace Console
 
 PLAN FOR TONIGHT:
 
-- Build out failing tests
-- invert the external service calls and the DB (it's OK for DB to be king)
-- Externalize Config
+X Build out failing tests
+O invert the external service calls and the DB (it's OK for DB to be king)
+X Externalize Config
 - Refactor out call to External Service as service
   - work promises in?
 - Develop Readme

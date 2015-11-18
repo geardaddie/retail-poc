@@ -2,6 +2,7 @@ require('./model');
 const restify = require('restify');
 const controller = require('./controller');
 const mongoose = require('mongoose');
+const config = require('./config');
 
 function createTestData() {
   // insert test data
@@ -26,7 +27,7 @@ function createTestData() {
 }
 
 function connectToDB() {
-  mongoose.connect('mongodb://localhost/myRetail', {server: {auto_reconnect: true}});
+  mongoose.connect(config.database.connection_url, {server: {auto_reconnect: true}});
 
   const db = mongoose.connection;
   db.on('error', (error) => { throw new Error(error); });
@@ -40,9 +41,14 @@ exports.startServer = () => {
   server.use(restify.bodyParser());
   server.use(restify.queryParser());
 
-  server.get('/products/:id', controller.getProduct);
-  server.put('/products/:id/price', controller.updateProductPrice);
-  server.get('/products', controller.listProducts);
+  server.get({path: '/products/:id', version: '1.0.0'}, controller.getProduct);
+  server.get('/products/v1/:id', controller.getProduct);
+
+  server.put({path: '/products/:id/price', version: '1.0.0'}, controller.updateProductPrice);
+  server.put('/products/v1/:id/price', controller.updateProductPrice);
+
+  server.get({path: '/products', version: '1.0.0'}, controller.listProducts);
+  server.get('/products/v1', controller.listProducts);
 
   server.listen(8080, () => {
     console.log('%s listening at %s', server.name, server.url);

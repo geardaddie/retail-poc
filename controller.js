@@ -2,6 +2,8 @@ const restify = require('restify');
 const assert = require('assert');
 const Promise = require('bluebird');
 const mongoose = require('mongoose');
+const config = require('./config');
+
 // const mongoose = Promise.promisifyAll(require('mongoose'));
 
 const Product = mongoose.model('Product');
@@ -10,28 +12,11 @@ Promise.promisifyAll(restify.JsonClient.prototype);
 
 exports.getProduct = (request, response, next) => {
   const client = restify.createJsonClient({
-    url: 'https://www.tgtappdata.com'
+    url: config.product_service.url
   });
   const id = request.params.id;
-  const api = '/v1/products/pdp/TCIN/' + id + '/1375?redsky-api-key=DEV24df89be43a6cca455DEV';
+  const api = config.product_service.path + id + '?' + config.product_service.api_key;
 
-  // let productDescription;
-  // client.getAsync(api).then((req) => {
-  //   console.log(req);
-  //   productDescription = prodDesc[0];
-  //   return Product.findOne({id: id}, '-_id');
-  // })
-  // .then((product) => {
-  //   product.name = productDescription.title;
-  //   response.send(product);
-  //   next();
-  // })
-  // .catch((err) => {
-  //   response.send('I got an error: ' + err);
-  //   console.log('I got an error: ' + err);
-  //   next();
-  //   throw err;
-  // });
   client.get(api, (err, req, res, productDescriptions) => {
     if (res.statusCode === 200 && productDescriptions && productDescriptions[0]) {
       Product.findOne({
@@ -83,6 +68,7 @@ exports.updateProductPrice = (req, response, next) => {
       value: value,
       currency_code: currencyCode
     };
+
     return product.save();
   }).then(() => {
     response.send(200);
