@@ -5,17 +5,8 @@ const assert = require('assert');
 const mongoose = require('mongoose');
 
 before(() => {
-   server.startServer();
+  server.startServer();
 });
-
-// before((done) => {
-//   mongoose.connect('mongodb://localhost/myRetail', {server: {auto_reconnect: true}});
-//   const db = mongoose.connection;
-//   db.on('error', (err) => { throw new Error(err); });
-//   db.once('open', () => {
-//     // done();
-//   });
-// });
 
 describe('Priced Product Server', () => {
   const client = restify.createJsonClient({
@@ -55,27 +46,75 @@ describe('Priced Product Server', () => {
   });
 
   it('should return 404 on unknown product', (done) => {
-    assert(false);
-    done();
-  });
-
-  it('should update the price on a product', (done) => {
-    const updatedPrice = {value: 10.40, currency_code: 'USD'};
-    client.put('/products/15117729/price', updatedPrice, (err, req, res) => {
-      assert.ifError(err);
-      assert(res.statusCode === 200);
-      // TODO check database
+    client.get('/products/8675309', (err, req, res) => {
+      assert.equal(404, res.statusCode);
+      assert(err);
       done();
     });
   });
 
-  it('should return 404 on unknown product id', (done) => {
-    assert(false);
-    done();
+  it('should update the price on a product', (done) => {
+    const updatedPrice = {
+      value: 10.40,
+      currency_code: 'EUR'
+    };
+
+    client.put('/products/15117729/price', updatedPrice, (serviceErr, req, res) => {
+      assert.ifError(serviceErr);
+      assert(res.statusCode === 200);
+      Product = mongoose.model('Product');
+      Product.findOne({
+        id: 15117729
+      }, (dbErr, product) => {
+        assert.ifError(dbErr);
+        assert.equal(product.current_price.value, 10.40);
+        assert.equal(product.current_price.currency_code, 'EUR');
+        done();
+      });
+    });
   });
 
-  it('should return 400 on bad price data', (done) => {
-    assert(false);
-    done();
+  it('should return 404 on unknown product id', (done) => {
+    client.put('/products/8675309/price', (err, req, res) => {
+      assert.equal(404, res.statusCode);
+      assert(err);
+      done();
+    });
+  });
+
+  it('should return 400 on bad price', (done) => {
+    const updatedPrice = {
+      value: 'FOOBAR',
+      currency_code: 'EUR'
+    };
+
+    client.put('/products/15117729/price', updatedPrice, (serviceErr, req, res) => {
+      assert.equal(res.statusCode, 400);
+      done();
+    });
+  });
+
+  it('should return 400 invalid price', (done) => {
+    const updatedPrice = {
+      value: -10.40,
+      currency_code: 'EUR'
+    };
+
+    client.put('/products/15117729/price', updatedPrice, (serviceErr, req, res) => {
+      assert.equal(res.statusCode, 400);
+      done();
+    });
+  });
+
+  it('should return 400 non EUR/USD currencycode', (done) => {
+    const updatedPrice = {
+      value: 10.40,
+      currency_code: 'GBP'
+    };
+
+    client.put('/products/15117729/price', updatedPrice, (serviceErr, req, res) => {
+      assert.equal(res.statusCode, 400);
+      done();
+    });
   });
 });

@@ -10,3 +10,15 @@ TODO: Consider naming this 'pricedProducts' and remember its goal is to only ser
 TODO: consider renaming app.js -> server.js || myretail.js
      - like this: app.set(port, process.env.PORT || 3000) (replace 3000 with config-env.json setting)
 TODO: Error Handling!
+TODO: Consider adding Bunyan Logging to replace Console
+
+PLAN FOR TONIGHT:
+
+- Build out failing tests
+- invert the external service calls and the DB (it's OK for DB to be king)
+- Externalize Config
+- Refactor out call to External Service as service
+  - work promises in?
+- Develop Readme
+- Replace Console logging with Bunyan
+- Consider Swagger

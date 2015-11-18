@@ -1,7 +1,8 @@
 const restify = require('restify');
 const assert = require('assert');
-const mongoose = require('mongoose');
 const Promise = require('bluebird');
+const mongoose = require('mongoose');
+// const mongoose = Promise.promisifyAll(require('mongoose'));
 
 const Product = mongoose.model('Product');
 
@@ -31,15 +32,23 @@ exports.getProduct = (request, response, next) => {
   //   next();
   //   throw err;
   // });
-
   client.get(api, (err, req, res, productDescriptions) => {
-    assert.ifError(err); // connection error
-    Product.findOne({id: id}, '-_id', (error, product) => {
-      assert.ifError(error); // connection error
-      product.name = productDescriptions[0].title;
-      response.send(product);
-      next();
-    });
+    if (res.statusCode === 200 && productDescriptions && productDescriptions[0]) {
+      Product.findOne({
+        id: id
+      }, '-_id', (error, product) => {
+        assert.ifError(error); // connection error
+        product.name = productDescriptions[0].title;
+        response.send(product);
+        next();
+      });
+    } else {
+      if (res.statusCode === 404) {
+        next(new restify.errors.NotFoundError("No product found with id '" + id + "'."));
+      } else {
+        next(new restify.errors.InternalSystemError('Error Occurred Communciating with External Service'));
+      }
+    }
   });
 };
 
@@ -52,14 +61,33 @@ exports.listProducts = (request, response, next) => {
 };
 
 exports.updateProductPrice = (req, response, next) => {
-  // todo save product
-  Product.findOne({id: req.params.id}).then((product) => {
-    if (!product) throw new Error("not found!");
-    product.current_price = req.body;
+  const id = req.params.id;
+  Product.findOne({ id: id }).then((product) => {
+    if (!product) {
+      throw new restify.errors.NotFoundError("No product found with id '" + id + "'.");
+    }
+
+    const value = req.body.value;
+    const currencyCode = req.body.currency_code;
+
+    if (typeof value !== 'number' || value < 0)  {
+      throw new restify.errors.BadRequestError(value + ' is not a valid value for price');
+    }
+
+    const isValidCurrencyCode = (currencyCode === 'USD' || currencyCode === 'EUR');
+    if (!isValidCurrencyCode) {
+      throw new restify.errors.BadRequestError(currencyCode + ' is not a valid value (only "USD" & "EUR" supported)');
+    }
+
+    product.current_price = {
+      value: value,
+      currency_code: currencyCode
+    };
     return product.save();
   }).then(() => {
-    console.log("Returning");
     response.send(200);
     return next();
+  }).end((err) => {
+    return next(err);
   });
 };
