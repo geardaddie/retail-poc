@@ -145,7 +145,6 @@ To run the tests, you'll need to install Mocha
 ```npm install mocha -g```
 
 then run tests from project root by entering
-
 ```mocha```
 
 If you wish to generate test coverage reports
@@ -157,7 +156,3 @@ then run tests with the following command
 ```istanbul cover _mocha -R```
 
 _(the reports will be in {project_root}/coverage/lcov-report/index.html)_
-
-
-
-
