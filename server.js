@@ -18,7 +18,7 @@ function createTestData() {
                                   });
         product.save((error) => {
           if (error) {
-            console.log("Didn't save!");
+            console.log('Unable to save test data');
           }
         });
       });
@@ -36,11 +36,7 @@ function connectToDB() {
   });
 }
 
-exports.startServer = () => {
-  const server = restify.createServer();
-  server.use(restify.bodyParser());
-  server.use(restify.queryParser());
-
+function registerRoutes(server) {
   server.get({path: '/products/:id', version: '1.0.0'}, controller.getProduct);
   server.get('/products/v1/:id', controller.getProduct);
 
@@ -49,6 +45,14 @@ exports.startServer = () => {
 
   server.get({path: '/products', version: '1.0.0'}, controller.listProducts);
   server.get('/products/v1', controller.listProducts);
+}
+
+exports.startServer = () => {
+  const server = restify.createServer();
+  server.use(restify.bodyParser());
+  server.use(restify.queryParser());
+
+  registerRoutes(server);
 
   server.listen(8080, () => {
     console.log('%s listening at %s', server.name, server.url);

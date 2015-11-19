@@ -14,6 +14,8 @@ Being a PoC, the service upon startup will determine if there is data in the Mon
 
 Integration tests are provided and based on the Mocha testing framework.
 
+Configuration settings for the service are in the file ```config.js```
+
 ### Provided HTTP API
 
 *Request*

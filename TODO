@@ -1,6 +1,6 @@
 PLAN FOR TONIGHT:
 
-- Develop Readme
+X Develop Readme
 - Refactor out call to External Service as service
 - Replace Console logging with Bunyan
 - Consider Swagger
