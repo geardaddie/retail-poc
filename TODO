@@ -1,14 +1,9 @@
-X: Consider versioning in the API
-TODO: Check Content Type and Accept
-TODO: Consider adding Bunyan Logging to replace Console
-
 PLAN FOR TONIGHT:
 
-X Build out failing tests
-O invert the external service calls and the DB (it's OK for DB to be king)
-X Externalize Config
-- Refactor out call to External Service as service
-  - work promises in?
 - Develop Readme
+- Refactor out call to External Service as service
 - Replace Console logging with Bunyan
 - Consider Swagger
+- Docker
+- Refactor to Functional (and promises?)
+- Check Content Type and Accept
