@@ -126,7 +126,9 @@ To install NodeJS I recommend using [NVM - the Node Version Manager](https://git
 
 To install MongoDB I recommend using [HomeBrew](http://brew.sh). Please follow the instructions at [MongoDB.org](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
 
-To run the application, from the Project Root directory:
+## Running the Service
+
+From the project root
 
 1. Install the dependencies
 ```npm install```
@@ -140,12 +142,14 @@ To run the application, from the Project Root directory:
 4. Start the Service
 ```node app.js```
 
+
 To run the tests, you'll need to install Mocha
 
 ```npm install mocha -g```
 
 then run tests from project root by entering
-```mocha```
+
+``` mocha ```
 
 If you wish to generate test coverage reports
 
