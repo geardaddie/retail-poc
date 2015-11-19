@@ -1,4 +1,4 @@
-#myRetail
+# myRetail
 
 A [Node](https://nodejs.org/en/)-based Proof-of-Concept REST service that responds to requests for products pricing information for a given Product ID.
 
