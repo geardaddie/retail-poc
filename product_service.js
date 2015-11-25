@@ -15,7 +15,7 @@ exports.retrieveProductNameFor = (productId) => {
 
   return client.getAsync(api).then((x) => {
     const res = x.res;
-    const productDescriptions = res.body;
+    const productDescriptions = JSON.parse(res.body);
     if (res.statusCode === 200 && productDescriptions && productDescriptions[0]) {
       return productDescriptions[0].title;
     }
