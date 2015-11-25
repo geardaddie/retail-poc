@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+const Promise = require('bluebird');
+const mongoose = Promise.promisifyAll(require('mongoose'));
 
 const ProductSchema = new mongoose.Schema({
   id: String,

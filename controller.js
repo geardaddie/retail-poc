@@ -1,35 +1,33 @@
 const restify = require('restify');
-const assert = require('assert');
 const Promise = require('bluebird');
-const mongoose = require('mongoose');
-const productService = require('./product_service');
 
-// const mongoose = Promise.promisifyAll(require('mongoose'));
+const mongoose = Promise.promisifyAll(require('mongoose'));
+const productService = require('./product_service');
 
 const Product = mongoose.model('Product');
 
-Promise.promisifyAll(restify.JsonClient.prototype);
-
-
 exports.getProduct = (request, response, next) => {
+  'use strict';
   const id = request.params.id;
 
   function retrieveProductFromDb(name) {
-    Product.findOne({
+    return Product.findOneAsync({
       id: id
-    }, '-_id', (error, product) => {
-      assert.ifError(error); // db connection error
+    }, '-_id').then((product) => {
       if (product) {
         product.name = name;
-        response.send(product);
-        next();
-      } else {
-        next(new restify.errors.NotFoundError(`No product found with id '${id}'.`));
+        return product;
       }
+
+      throw new restify.errors.NotFoundError(`No product found with id '${id}'.`);
     });
   }
 
-  productService.retrieveProductNameFor(id, retrieveProductFromDb, (err) => {next(err); });
+  productService.retrieveProductNameFor(id).then(retrieveProductFromDb)
+  .then((product) => {
+    response.send(product);
+    next();
+  }).catch((err) => {next(err); });
 };
 
 // TODO: Have this merge product names in as well (promises!!)
